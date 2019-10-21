@@ -1,27 +1,24 @@
 /**
- * Created by Administrator on 2019/10/15.
+ * Created by Administrator on 2019/10/21.
  */
 import React from 'react'
-import '../../css/index/nav.css'
-import Top from '../Top'
+import Store from '../../store/index'
+import '../../css/collection/nav.css'
 import img_1 from '../../images/index/index_1.png'
-import img_2 from '../../images/index/index_2.png'
-import img_3 from '../../images/index/index_3.png'
+import axios from 'axios'
+import {withRouter} from 'react-router';
+import Top from '../Top'
+
 class Nav extends React.Component{
+    // state={
+    //     num:Store.state.commentNum
+    // }
     render(){
         return (
             <div className="nav-wrap">
                 <Top/>
-                <div className="nav nav-index">
-                    <div className="left">
-                        <div onClick={this.openNav.bind(this)}><img src={img_1} alt=""/>
-                        </div>
-                        <h2>首页</h2>
-                    </div>
-                    <div className="right">
-                        <div href="#"><img src={img_2} alt=""/></div>
-                        <div href="#"><img src={img_3} alt=""/></div>
-                    </div>
+                <div className="nav collections-nav">
+                    <img src={img_1} alt="" onClick={this.openNav.bind(this)} /><span>{Store.state.collectionsList.length}条收藏</span>
                 </div>
             </div>
         )
@@ -49,4 +46,4 @@ class Nav extends React.Component{
     }
 }
 
-export default  Nav
+export default  withRouter(Nav)

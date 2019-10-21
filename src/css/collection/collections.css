@@ -1,0 +1,8 @@
+.collections-content {
+  height: 100vh;
+  background: #f4f4f4;
+  overflow: scroll;
+}
+.collections-content ul {
+  padding: 2.53rem 0.23rem 0;
+}

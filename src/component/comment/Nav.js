@@ -33,6 +33,7 @@ class Nav extends React.Component{
     }
 
     toBack(){
+        //返回上一页 10-18
         this.props.history.goBack();
     }
 

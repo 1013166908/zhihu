@@ -6,6 +6,7 @@ import EventEmitter from 'events'
 
 class State extends EventEmitter{
     commentNum=0;
+    collectionsList=["9716107","9716140","9716494","9716097","9716169","9716201"];
 }
 //创建数据
 var state= new State();
@@ -18,10 +19,16 @@ var dispatcher =  new Dispatcher()
 //注册派发器
 dispatcher.register((action)=>{
     switch(action.actionType){
-        case 'changeCommentNum':
+        case 'changeCommentNum':{
             state.commentNum=action.actionParams;
-            state.emit('change')
+            state.emit('change');
             break;
+        }
+        case 'changeCollections':{
+            state.collectionsList=action.actionParams;
+            state.emit('change');
+            break;
+        }
         default:;
     }
 });

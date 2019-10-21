@@ -38,7 +38,7 @@ class Detail extends React.Component{
             this.setState({
                 detail:res.data,
             })
-            console.log(this.state);
+            // console.log(this.state);
 
         })
     }

@@ -7,7 +7,7 @@ import Nav from './Nav'
 import Lunbo from './Lunbo'
 import News from './News'
 import Mask from './Mask'
-import Side from './Side'
+import Side from '../Side'
 
 class Index extends React.Component{
     state={

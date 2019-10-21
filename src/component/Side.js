@@ -2,11 +2,12 @@
  * Created by Administrator on 2019/10/20.
  */
 import React from 'react'
-import '../../css/index/side.css'
-import img_head from '../../images/index/head.jpg'
-import img_side_00 from '../../images/index/side_00.png'
-import img_side_01 from '../../images/index/side_01.png'
-import img_index from '../../images/index/index.png'
+import '../css/index/side.css'
+import {withRouter} from 'react-router';
+import img_head from '../images/index/head.jpg'
+import img_side_00 from '../images/index/side_00.png'
+import img_side_01 from '../images/index/side_01.png'
+import img_index from '../images/index/index.png'
 class Side extends React.Component{
     render(){
         return (
@@ -17,7 +18,7 @@ class Side extends React.Component{
                         <p>小遥姐姐</p>
                     </div>
                     <div className="bottom">
-                        <button>
+                        <button onClick={this.toColl.bind(this)}>
                             <img src={img_side_00} alt=""/><span>我的收藏</span>
                         </button>
                         <button>
@@ -34,7 +35,19 @@ class Side extends React.Component{
         )
     }
 
+
+    //去往收藏 10-21
+    toColl(){
+        this.props.history.push('/collections');
+        //允许滚动 10-21
+        document.body.style.overflow="visible";
+    }
+
+    //回到首页 10-20
     toContent(){
+        //回到首页 10-21
+        this.props.history.push('/index')
+
         //允许滚动 10-20
         document.body.style.overflow="visible";
 
@@ -56,4 +69,4 @@ class Side extends React.Component{
     }
 }
 
-export default  Side
+export default  withRouter(Side)

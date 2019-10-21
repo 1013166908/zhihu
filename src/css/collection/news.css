@@ -1,0 +1,23 @@
+.collections-list {
+  display: flex;
+  width: 9.36rem;
+  height: 2.58rem;
+  margin: 0.2rem 0 0.22rem;
+  padding: 0.36rem 0.48rem 0;
+  background: white;
+  box-shadow: 0 0 0.05rem #d7d7d7;
+  border: 0.01rem solid #dddddd;
+  border-radius: 0.1rem;
+}
+.collections-list h4 {
+  width: 6.48rem;
+  height: 2.16rem;
+  font-size: 0.52rem;
+  line-height: 0.64rem;
+  color: #787878;
+  font-weight: normal;
+}
+.collections-list img {
+  width: 2.46rem;
+  height: 2.16rem;
+}

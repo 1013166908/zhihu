@@ -1,12 +1,6 @@
 /**
  * Created by Administrator on 2019/10/15.
  */
-/**
- * Created by Administrator on 2019/10/15.
- */
-/**
- * Created by Administrator on 2019/10/15.
- */
 import React from 'react'
 import '../../css/index/news.css'
 import axios from 'axios'
