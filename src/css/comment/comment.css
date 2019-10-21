@@ -1,0 +1,69 @@
+.comment-wrap {
+  padding-top: 2.53rem;
+}
+.comment-wrap .main-content > header {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.02rem solid #e0e0e0;
+  padding: 0 0.48rem;
+  font-size: 0.4rem;
+  line-height: 1.28rem;
+}
+.comment-wrap .main-content > header .right {
+  width: 0.35rem;
+  height: 0.32rem;
+}
+.comment-wrap .main-content > header .right img {
+  width: 100%;
+}
+.comment-wrap .main-content ul li {
+  display: flex;
+  border-top: 0.03rem solid #e0e0e0;
+  padding: 0.48rem;
+  overflow: hidden;
+}
+.comment-wrap .main-content ul li .left {
+  width: 1.05rem;
+  margin-right: 0.1rem;
+}
+.comment-wrap .main-content ul li .left > div {
+  width: 1.05rem;
+  height: 1.05rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.comment-wrap .main-content ul li .left > div img {
+  width: 100%;
+}
+.comment-wrap .main-content ul li .right {
+  flex: 1;
+}
+.comment-wrap .main-content ul li .right header {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.58rem;
+}
+.comment-wrap .main-content ul li .right header h2 {
+  font-size: 0.5rem;
+}
+.comment-wrap .main-content ul li .right header > div {
+  line-height: 0.58rem;
+}
+.comment-wrap .main-content ul li .right header > div img {
+  width: 0.44rem;
+  height: 0.58rem;
+  vertical-align: bottom;
+  margin-right: 0.05rem;
+}
+.comment-wrap .main-content ul li .right header > div span {
+  font-size: 0.32rem;
+  color: #b3b3b3;
+}
+.comment-wrap .main-content ul li .right p {
+  font-size: 0.48rem;
+}
+.comment-wrap .main-content ul li .right footer {
+  margin-top: 0.45rem;
+  font-size: 0.28rem;
+  color: #b3b3b3;
+}

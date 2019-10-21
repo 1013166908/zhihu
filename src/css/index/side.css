@@ -1,0 +1,66 @@
+.side {
+  position: fixed;
+  z-index: 20;
+  top: 0.85rem;
+  left: -9.13rem;
+  background: white;
+  width: 9.13rem;
+  height: 100vh;
+}
+.side header {
+  height: 3.33rem;
+  background: #00a2ed;
+}
+.side header .top {
+  display: flex;
+  align-items: center;
+  height: 1.63rem;
+  padding: 0 0.48rem;
+  margin-bottom: 0.2rem;
+  line-height: 1rem;
+  font-size: 0.48rem;
+  color: white;
+}
+.side header .top div {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.38rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.side header .top div img {
+  width: 100%;
+}
+.side header .bottom {
+  display: flex;
+  height: 1.5rem;
+  line-height: 0.48rem;
+}
+.side header .bottom button {
+  display: block;
+  flex: 1;
+  background: #00a2ed;
+  border: none;
+  font-size: 0.42rem;
+  color: white;
+}
+.side header .bottom button img {
+  vertical-align: top;
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-right: 0.74rem;
+}
+.side .content > div {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  padding: 0 0.64rem;
+  line-height: 0.56rem;
+  font-size: 0.48rem;
+  color: #00a2ed;
+  background: #f0f0f0;
+}
+.side .content > div img {
+  width: 0.65rem;
+  margin-right: 0.48rem;
+}

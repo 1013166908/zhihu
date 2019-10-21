@@ -1,0 +1,20 @@
+.nav-detail img {
+  width: 100%;
+}
+.nav-detail div {
+  width: 0.8rem;
+  height: 1rem;
+}
+.nav-detail ul {
+  display: flex;
+}
+.nav-detail ul li {
+  display: flex;
+  width: 1.38rem;
+  margin-left: 0.18rem;
+  line-height: 1rem;
+}
+.nav-detail ul li span {
+  font-size: 0.36rem;
+  color: white;
+}

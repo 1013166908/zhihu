@@ -1,0 +1,11 @@
+.index-wrap .main-content{
+    padding-top: 2.53rem;
+}
+
+.index-wrap .main-content p{
+    margin-top: 1rem;
+    background: #d0dcff;
+    font-size:0.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+}

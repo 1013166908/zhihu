@@ -1,0 +1,31 @@
+.nav-wrap .nav-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-wrap .nav-comment > div {
+  height: 0.75rem;
+}
+.nav-wrap .nav-comment .left {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-wrap .nav-comment .left div {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 1rem;
+}
+.nav-wrap .nav-comment .left h1 {
+  font-size: 0.56rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.05rem;
+  color: white;
+}
+.nav-wrap .nav-comment .right {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.nav-wrap .nav-comment img {
+  width: 100%;
+  vertical-align: top;
+}
